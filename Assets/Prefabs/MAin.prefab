@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1036305999287910}
+  m_IsPrefabParent: 1
+--- !u!1 &1036305999287910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4981788370605056}
+  - component: {fileID: 114175057487314774}
+  m_Layer: 0
+  m_Name: MAin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4981788370605056
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1036305999287910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114175057487314774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1036305999287910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671ff125e50039e459ede5a2b62fa808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 20
+  height: 20
+  tilescript_g: {fileID: 1807586545504318, guid: 1472efde110e74d40819dae9ff9f2d2e,
+    type: 2}
+  tilescript_0: {fileID: 1678359531560492, guid: 038293e70761b534186ae592accfcb85,
+    type: 2}
+  tilescript_1: {fileID: 1767468054941154, guid: 919e82961c7b5644daaaa728a3b2b9d3,
+    type: 2}
+  tilescript_2: {fileID: 1853882963532492, guid: baa3f88fe936a294ab3ee09ce2dfd275,
+    type: 2}
+  tilescript_3: {fileID: 1264191529316888, guid: bdb04491f702f5d4ab6859a77f35c93a,
+    type: 2}
+  tilescript_4: {fileID: 1217458077141188, guid: e9114d3c52e211847b46effe1f014d6d,
+    type: 2}
+  tilescript_5: {fileID: 1925973877481040, guid: 95cfafb16c9e2a647ace984ee7cf8ead,
+    type: 2}
+  tilescript_6: {fileID: 1256633843400294, guid: 1c1b909f791beff46a343939df0e461c,
+    type: 2}
+  waterTiles:
+  - {fileID: 1678359531560492, guid: 038293e70761b534186ae592accfcb85, type: 2}
+  - {fileID: 1767468054941154, guid: 919e82961c7b5644daaaa728a3b2b9d3, type: 2}
+  - {fileID: 1853882963532492, guid: baa3f88fe936a294ab3ee09ce2dfd275, type: 2}
+  - {fileID: 1264191529316888, guid: bdb04491f702f5d4ab6859a77f35c93a, type: 2}
+  - {fileID: 1217458077141188, guid: e9114d3c52e211847b46effe1f014d6d, type: 2}
+  - {fileID: 1925973877481040, guid: 95cfafb16c9e2a647ace984ee7cf8ead, type: 2}
+  - {fileID: 1256633843400294, guid: 1c1b909f791beff46a343939df0e461c, type: 2}
+  dirArrows:
+  - {fileID: 1433005902378550, guid: 5495168d94a6d864dabea46c347e8180, type: 2}
+  - {fileID: 1208574143629442, guid: f993be9823291594e885415377c09b78, type: 2}
+  - {fileID: 1511193904346674, guid: 1ca2c732f3438bb40922eecb31cc9926, type: 2}
+  - {fileID: 1626143686503626, guid: c38c09fdda5769b4d9fa635679cbe95a, type: 2}
+  groundTile: {fileID: 1807586545504318, guid: 1472efde110e74d40819dae9ff9f2d2e, type: 2}
+  purifier: {fileID: 1067688057360340, guid: 395b401a45f44c6418d67aa8d44c6677, type: 2}
+  firstTime: 1
+  isWater: 0
+  isUp: 0
+  isDown: 0
+  isLeft: 0
+  isRight: 0
+  viewBOD: 1
+  viewCOD: 0
+  viewDO: 0
+  BODvar: 2.5
+  DOvar: 2.5
+  CODvar: 2.5
